@@ -1,0 +1,162 @@
+---
+title: "Aufgaben Sitzung 4"
+date: 23. November 2020
+---
+
+# Vektoren
+
+- Generieren Sie die folgenden Vektoren (und seien Sie dabei möglichst faul).
+
+```
+[1]  TRUE FALSE FALSE
+```
+
+```{r}
+
+```
+
+```
+##  [1]  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE
+##  [9]  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE
+## [17]  TRUE FALSE  TRUE FALSE
+```
+
+```{r}
+
+```
+
+```
+##  [1]  2  4  6  8 10 12 14 16 18 20 22 24 26 28 30 32 34
+```
+
+```{r}
+
+```
+
+```
+##  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17
+## [18] 18 19 20
+```
+
+```{r}
+
+```
+
+```
+##  [1] "Z" "Y" "X" "W" "V" "U" "T" "S" "R" "Q" "P" "O"
+## [13] "N" "M" "L" "K" "J" "I" "H" "G" "F" "E" "D" "C"
+## [25] "B" "A"
+```
+
+```{r}
+
+```
+
+- Wandeln Sie die Typen der ersten Drei Vektoren um:
+
+```
+## [1] 1 0 0
+```
+
+```{r}
+
+```
+
+```
+##  [1] 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+```
+
+```{r}
+
+```
+
+```
+##  [1] "2"  "4"  "6"  "8"  "10" "12" "14" "16" "18" "20"
+## [11] "22" "24" "26" "28" "30" "32" "34"
+```
+
+```{r}
+
+```
+
+# Tibbles
+
+- Schauen Sie sich den Beispieldatensatz `faithful` an.
+
+```{r}
+
+```
+
+- Wandeln Sie den Datensatz `faithful` in einen tibble um.
+
+```{r}
+
+```
+
+- Wenden Sie `str()` auf den Datensatz an. und Interpretieren Sie das Ergebnis.
+
+```{r}
+
+```
+
+- Erstellen Sie einen eigenen tibble mit Vornamen, Nachnamen und Alter von (ausgedachten?) Menschen.
+
+```{r}
+
+```
+
+- Lassen Sie sich nur die zweite Zeile des tibbles `diamonds` anzeigen
+
+```{r}
+
+```
+
+- Lassen Sie sich nur jede zweite Zeile des tibbles `diamonds` anzeigen
+
+```{r}
+
+```
+
+### Statistik
+
+- Berechnen Sie die durchschnittliche Eruptionszeit im Datensatz `faithful` (als tibble).
+
+```{r}
+
+```
+
+- Berechnen Sie Varianz und Standardabweichung der Karatzahl im Beispieldatensatz `diamonds`
+
+```{r}
+
+```
+
+- Was sagen die einzelnen Kennzahlen des Befehls `summary(x)` aus?
+
+```{r}
+
+```
+
+### Swirl
+
+Absolvieren Sie die folgenden Swirl-Lektionen (Anleitung zu Swirl s. letzte Lektion):
+
+- 3: Sequences of Numbers
+- 4: Vectors
+- 5: Missing Values
+- 6: Subsetting Vectors
+
+### Recherche
+
+- Nach welcher Methode berechnet R den Quartilsabstand einer Verteilung (im Unterschied zur Vorlesung)?
+- Finden Sie fünf Befehle, die mit tibbles funktionieren, aber nicht mit data frames.
+- Welche Pakete sind Teil des `tidyverse`? Wofür sind sie gedacht?
+- Lesen Sie die Hilfe zu `tibble::tibble`. Recherchieren Sie eigenständig unklare Begriffe.
+
+### Kniffliges
+
+- Kehren Sie auf möglichst elegante und allgemeingültige Weise die Reihenfolge eines Vektors um, ohne die Funktion `rev()` zu benutzen.
+
+```{r}
+
+```
